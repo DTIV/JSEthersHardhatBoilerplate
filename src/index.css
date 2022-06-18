@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem;
+  background-color: rgb(223, 223, 223);
+}
+
+.tac{
+  text-align: center;
+}
+.app-wrap{
+  display: grid;
+  grid-template-rows: repeat(min-max,auto);
+  grid-gap: 2rem;
+}
+.main-wrap, .contract-wrap, .headerWrap{
+  width: 70%;
+  border: black solid 1px;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-gap: 1rem;
+  background-color: white;
+}
+
+.dot{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: black solid 1px;
+}
+.connected-dot{
+  background-color: green;
+}
+
+.disconnect-dot{
+  background-color: red;
+}
+
+.title{
+  text-align: center;
+}
